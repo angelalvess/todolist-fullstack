@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffc0cb;
+}
+
+main {
+    background: #fff;
+    width: 90%;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-form {
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+
+
+}
+
+.input-task {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.submit-button {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #ebebeb;
+    color: #000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #dcdcdc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td {
+    color: #333;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #ebebeb;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.select:hover {
+    background-color: #dcdcdc;
+}
+
+.btn-action {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+.btn-action:nth-child(1) {
+    background-color: #ffc0cb;
+    margin-right: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-action:nth-child(1):hover {
+    background-color: #ff9aa2;
+}
+
+
+.btn-action:nth-child(2) {
+    background-color: #ff6347;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-action:nth-child(2):hover {
+    background-color: #ff4500;
+}
