@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 console.log('Hello from the frontend! - staging');
-=======
+
 const tbody = document.querySelector('tbody');
 const addForm = document.querySelector('.add-form');
 const inputTask = document.querySelector('.input-task');
