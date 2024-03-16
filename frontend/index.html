@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <script src="src/js/script.js" defer></script>
+
+  <title>To Do List</title>
+</head>
+
+<body>
+  <main>
+    <form class="add-form">
+      <input class="input-task" type="text" placeholder="Add Task" />
+      <button class="submit-button" type="submit">+</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Created in</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>title task</td>
+          <td>01 january 2024</td>
+
+          <td>
+            <select class="select">
+              <option value="pendent">Pendent</option>
+              <option value="finished">Finished</option>
+            </select>
+          </td>
+
+          <td>
+            <button class="btn-action">
+              <span class="material-symbols-outlined">edit</span>
+            </button>
+
+            <button class="btn-action">
+              <span class="material-symbols-outlined">delete</span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>
