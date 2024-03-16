@@ -150,4 +150,3 @@ const renderTasks = async () => {
 addForm.addEventListener('submit', addTask);
 
 renderTasks();
->>>>>>> 529ff5af571def1fcaa54ef1be7cf232fd1dfff4
